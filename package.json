@@ -1,0 +1,37 @@
+{
+  "name": "app-deploy-ui",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "lint": "biome check",
+    "format": "biome check --write",
+    "preview": "rsbuild preview -m development"
+  },
+  "dependencies": {
+    "@cloudscape-design/collection-hooks": "1.0.73",
+    "@cloudscape-design/components": "3.0.962",
+    "@cloudscape-design/global-styles": "1.0.42",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-error-boundary": "4.0.13",
+    "react-router": "7.2.0",
+    "swr": "2.2.5",
+    "uuid": "10.0.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rsbuild/core": "1.0.12",
+    "@rsbuild/plugin-react": "1.0.3",
+    "@types/node": "22.1.0",
+    "@types/react": "19.1.6",
+    "@types/react-dom": "19.1.6",
+    "@types/uuid": "10.0.0",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
+    "typescript": "5"
+  },
+  "packageManager": "yarn@1.22.22"
+}
